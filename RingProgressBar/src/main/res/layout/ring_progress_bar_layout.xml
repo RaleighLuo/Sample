@@ -12,7 +12,7 @@
 
 
     <com.gkzxhn.ringprogressbar.RingProgressBar
-        android:id="@+id/progress_bar_1"
+        android:id="@+id/mRingProgressBar1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
@@ -31,7 +31,7 @@
 
 
     <com.gkzxhn.ringprogressbar.RingProgressBar
-        android:id="@+id/progress_bar_2"
+        android:id="@+id/mRingProgressBar2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"

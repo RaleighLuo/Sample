@@ -1,6 +1,6 @@
-package com.gkzxhn.loadingview;
+package com.gkzxhn.loadingview
 
-import android.graphics.Paint;
+import android.graphics.Paint
 
 /*
  * Copyright 2016 Elye Project
@@ -18,10 +18,10 @@ import android.graphics.Paint;
  * limitations under the License.
  */
 
-interface LoaderView {
-    void setRectColor(Paint rectPaint);
+internal interface LoaderView {
+    fun setRectColor(rectPaint: Paint)
 
-    void invalidate();
+    fun invalidate()
 
-    boolean valueSet();
+    fun valueSet(): Boolean
 }

@@ -24,7 +24,6 @@ class LoginActivity : AppCompatActivity(){
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.login_layout)
-
     }
     fun onClick(view: View){
         if(view.id==R.id.login_layout_btn_go){
