@@ -42,4 +42,5 @@ dependencies {
     implementation project(':ZoomHeader')
     implementation project(':LoadingView')
     implementation project(':ViewPagerCards')
+    implementation project(':RingProgressBar')
 }

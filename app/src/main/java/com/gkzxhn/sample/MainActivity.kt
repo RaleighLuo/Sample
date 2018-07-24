@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.View
 import com.gkzxhn.loadingview.LoadingViewActivity
 import com.gkzxhn.materiallogin.LoginActivity
+import com.gkzxhn.ringprogressbar.RingProgressBarActivity
 import com.gkzxhn.rollingtextview.RollingTextViewActivity
 import com.gkzxhn.sample.adapter.MainAdapter
 import com.gkzxhn.sample.adapter.OnItemClickListener
@@ -40,11 +41,15 @@ class MainActivity : AppCompatActivity() {
         adapter.loadItem("ZoomHeader","饿了么详情页可以跟随手指移动 ViewPager变详情页的效果")
         adapter.loadItem("LoadingView","在等待文字和图片加载时显示加载动画")
         adapter.loadItem("ViewPagerCards","卡片式ViewPager效果")
+        adapter.loadItem("RingProgressBar","一个简单实现的自定义控件之MD风格的圆环进度条")
     }
     private val onItemClickListener=object :OnItemClickListener{
         override fun onClick(convertView: View, position: Int) {
 
             when(position){
+                8->{
+                    startActivity(Intent(this@MainActivity, RingProgressBarActivity::class.java))
+                }
                 7->{
                     startActivity(Intent(this@MainActivity, ViewPagerCardsActivity::class.java))
                 }
