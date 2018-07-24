@@ -12,6 +12,7 @@ import com.gkzxhn.sample.adapter.OnItemClickListener
 import com.gkzxhn.slantedtextview.SlantedTextViewActivity
 import com.gkzxhn.supercircle.SuperCircleActivity
 import com.gkzxhn.switchbutton.SwitchButtonActivity
+import com.gkzxhn.viewpagercards.ViewPagerCardsActivity
 import com.gkzxhn.zoomheader.ZoomHeaderActivity
 import kotlinx.android.synthetic.main.main_layout.*
 
@@ -38,11 +39,15 @@ class MainActivity : AppCompatActivity() {
         adapter.loadItem("SlantedTextView","斜角文字")
         adapter.loadItem("ZoomHeader","饿了么详情页可以跟随手指移动 ViewPager变详情页的效果")
         adapter.loadItem("LoadingView","在等待文字和图片加载时显示加载动画")
+        adapter.loadItem("ViewPagerCards","卡片式ViewPager效果")
     }
     private val onItemClickListener=object :OnItemClickListener{
         override fun onClick(convertView: View, position: Int) {
 
             when(position){
+                7->{
+                    startActivity(Intent(this@MainActivity, ViewPagerCardsActivity::class.java))
+                }
                 6->{
                     startActivity(Intent(this@MainActivity, LoadingViewActivity::class.java))
                 }
