@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/common_white_item_click_selector"
+    >
+    <TextView
+        android:id="@+id/tvContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Text"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:layout_marginTop="15dip"
+        android:textColor="@android:color/black"
+        />
+    <TextView
+        android:id="@+id/tvBreif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Text"
+        android:layout_marginLeft="17dip"
+        android:layout_marginRight="15dip"
+        android:layout_marginTop="2dip"
+        android:textSize="10sp"
+        android:layout_marginBottom="10dip"
+        android:textColor="#999999"
+        />
+    <View android:layout_width="match_parent"
+        android:layout_height="0.5dip"
+        android:background="#dddddd"
+        android:layout_marginLeft="15dip"
+        />
+</LinearLayout>
