@@ -10,6 +10,7 @@ import com.gkzxhn.ringprogressbar.RingProgressBarActivity
 import com.gkzxhn.rollingtextview.RollingTextViewActivity
 import com.gkzxhn.sample.adapter.MainAdapter
 import com.gkzxhn.sample.adapter.OnItemClickListener
+import com.gkzxhn.scratchview.ScratchDemoActivity
 import com.gkzxhn.slantedtextview.SlantedTextViewActivity
 import com.gkzxhn.supercircle.SuperCircleActivity
 import com.gkzxhn.switchbutton.SwitchButtonActivity
@@ -42,11 +43,16 @@ class MainActivity : AppCompatActivity() {
         adapter.loadItem("LoadingView","在等待文字和图片加载时显示加载动画")
         adapter.loadItem("ViewPagerCards","卡片式ViewPager效果")
         adapter.loadItem("RingProgressBar","一个简单实现的自定义控件之MD风格的圆环进度条")
+        adapter.loadItem("ScratchView","刮奖效果")
+
     }
     private val onItemClickListener=object :OnItemClickListener{
         override fun onClick(convertView: View, position: Int) {
 
             when(position){
+                9->{
+                    startActivity(Intent(this@MainActivity, ScratchDemoActivity::class.java))
+                }
                 8->{
                     startActivity(Intent(this@MainActivity, RingProgressBarActivity::class.java))
                 }

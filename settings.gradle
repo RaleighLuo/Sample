@@ -1,1 +1,1 @@
-include ':app', ':MaterialLogin', ':SwitchButton', ':RollingTextView', ':SuperCircle', ':SlantedTextView', ':ZoomHeader', ':LoadingView', ':ViewPagerCards', ':RingProgressBar'
+include ':app', ':MaterialLogin', ':SwitchButton', ':RollingTextView', ':SuperCircle', ':SlantedTextView', ':ZoomHeader', ':LoadingView', ':ViewPagerCards', ':RingProgressBar', ':ScratchView'
