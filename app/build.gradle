@@ -44,4 +44,5 @@ dependencies {
     implementation project(':ViewPagerCards')
     implementation project(':RingProgressBar')
     implementation project(':ScratchView')
+    implementation project(':ADDialog')
 }

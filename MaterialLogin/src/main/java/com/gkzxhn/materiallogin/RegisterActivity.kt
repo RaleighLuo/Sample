@@ -78,10 +78,6 @@ class RegisterActivity : AppCompatActivity() {
         mAnimator.duration = 500
         mAnimator.interpolator = AccelerateInterpolator()
         mAnimator.addListener(object : AnimatorListenerAdapter() {
-            override fun onAnimationEnd(animation: Animator) {
-                super.onAnimationEnd(animation)
-            }
-
             override fun onAnimationStart(animation: Animator) {
                 mCardView.setVisibility(View.VISIBLE)
                 super.onAnimationStart(animation)
