@@ -45,4 +45,5 @@ dependencies {
     implementation project(':RingProgressBar')
     implementation project(':ScratchView')
     implementation project(':ADDialog')
+    implementation project(':LoadingIndicatorView')
 }

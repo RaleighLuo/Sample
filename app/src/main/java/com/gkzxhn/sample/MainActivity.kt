@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import com.gkzxhn.addialog.ADDialogActivity
+import com.gkzxhn.loadingindicatorview.SampleActivity
 import com.gkzxhn.loadingview.LoadingViewActivity
 import com.gkzxhn.materiallogin.LoginActivity
 import com.gkzxhn.ringprogressbar.RingProgressBarActivity
@@ -46,13 +47,16 @@ class MainActivity : AppCompatActivity() {
         adapter.loadItem("RingProgressBar","一个简单实现的自定义控件之MD风格的圆环进度条")
         adapter.loadItem("ScratchView","刮奖效果")
         adapter.loadItem("ADDialog","弹框广告")
-
+        adapter.loadItem("LoadingIndicatorView","加载动画")
 
     }
     private val onItemClickListener=object :OnItemClickListener{
         override fun onClick(convertView: View, position: Int) {
 
             when(position){
+                11->{
+                    startActivity(Intent(this@MainActivity, SampleActivity::class.java))
+                }
                 10->{
                     startActivity(Intent(this@MainActivity, ADDialogActivity::class.java))
                 }
