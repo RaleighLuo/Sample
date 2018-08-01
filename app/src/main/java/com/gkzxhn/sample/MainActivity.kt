@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import com.gkzxhn.addialog.ADDialogActivity
+import com.gkzxhn.circularprogressbutton.activity.CircularProgressButtonActivity
 import com.gkzxhn.loadingindicatorview.SampleActivity
 import com.gkzxhn.loadingview.LoadingViewActivity
 import com.gkzxhn.materiallogin.LoginActivity
@@ -50,12 +51,15 @@ class MainActivity : AppCompatActivity() {
         adapter.loadItem("ADDialog","弹框广告")
         adapter.loadItem("LoadingIndicatorView","加载动画")
         adapter.loadItem("NumberProgressBar","数字进度条")
-
+        adapter.loadItem("CircularProgressButton","圆形进度条按钮")
     }
     private val onItemClickListener=object :OnItemClickListener{
         override fun onClick(convertView: View, position: Int) {
 
             when(position){
+                13->{
+                    startActivity(Intent(this@MainActivity, CircularProgressButtonActivity::class.java))
+                }
                 12->{
                     startActivity(Intent(this@MainActivity, NumberProgressBarActivity::class.java))
                 }

@@ -47,4 +47,5 @@ dependencies {
     implementation project(':ADDialog')
     implementation project(':LoadingIndicatorView')
     implementation project(':NumberProgressBar')
+    implementation project(':CircularProgressButton')
 }
