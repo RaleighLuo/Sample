@@ -46,4 +46,5 @@ dependencies {
     implementation project(':ScratchView')
     implementation project(':ADDialog')
     implementation project(':LoadingIndicatorView')
+    implementation project(':NumberProgressBar')
 }

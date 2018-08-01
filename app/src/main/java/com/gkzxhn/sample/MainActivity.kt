@@ -8,6 +8,7 @@ import com.gkzxhn.addialog.ADDialogActivity
 import com.gkzxhn.loadingindicatorview.SampleActivity
 import com.gkzxhn.loadingview.LoadingViewActivity
 import com.gkzxhn.materiallogin.LoginActivity
+import com.gkzxhn.numberprogressbar.NumberProgressBarActivity
 import com.gkzxhn.ringprogressbar.RingProgressBarActivity
 import com.gkzxhn.rollingtextview.RollingTextViewActivity
 import com.gkzxhn.sample.adapter.MainAdapter
@@ -48,12 +49,16 @@ class MainActivity : AppCompatActivity() {
         adapter.loadItem("ScratchView","刮奖效果")
         adapter.loadItem("ADDialog","弹框广告")
         adapter.loadItem("LoadingIndicatorView","加载动画")
+        adapter.loadItem("NumberProgressBar","数字进度条")
 
     }
     private val onItemClickListener=object :OnItemClickListener{
         override fun onClick(convertView: View, position: Int) {
 
             when(position){
+                12->{
+                    startActivity(Intent(this@MainActivity, NumberProgressBarActivity::class.java))
+                }
                 11->{
                     startActivity(Intent(this@MainActivity, SampleActivity::class.java))
                 }

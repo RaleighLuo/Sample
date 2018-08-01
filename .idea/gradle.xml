@@ -11,7 +11,9 @@
             <option value="$PROJECT_DIR$/ADDialog" />
             <option value="$PROJECT_DIR$/LoadingIndicatorView" />
             <option value="$PROJECT_DIR$/LoadingView" />
+            <option value="$PROJECT_DIR$/MaterialDrawer" />
             <option value="$PROJECT_DIR$/MaterialLogin" />
+            <option value="$PROJECT_DIR$/NumberProgressBar" />
             <option value="$PROJECT_DIR$/RingProgressBar" />
             <option value="$PROJECT_DIR$/RollingTextView" />
             <option value="$PROJECT_DIR$/ScratchView" />
