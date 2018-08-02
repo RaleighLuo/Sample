@@ -9,6 +9,8 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/ADDialog" />
+            <option value="$PROJECT_DIR$/AndroidImageCrop" />
+            <option value="$PROJECT_DIR$/AndroidSwipeLayout" />
             <option value="$PROJECT_DIR$/CircularProgressButton" />
             <option value="$PROJECT_DIR$/LoadingIndicatorView" />
             <option value="$PROJECT_DIR$/LoadingView" />

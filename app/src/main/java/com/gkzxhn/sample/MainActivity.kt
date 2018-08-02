@@ -1,8 +1,11 @@
 package com.gkzxhn.sample
 
 import android.content.Intent
+import android.net.Uri
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.os.Environment
+import android.provider.MediaStore
 import android.view.View
 import com.gkzxhn.addialog.ADDialogActivity
 import com.gkzxhn.circularprogressbutton.activity.CircularProgressButtonActivity
@@ -21,6 +24,7 @@ import com.gkzxhn.switchbutton.SwitchButtonActivity
 import com.gkzxhn.viewpagercards.ViewPagerCardsActivity
 import com.gkzxhn.zoomheader.ZoomHeaderActivity
 import kotlinx.android.synthetic.main.main_layout.*
+import java.io.File
 
 /**
  * Created by Raleigh on 18/6/24.

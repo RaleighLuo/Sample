@@ -1,1 +1,1 @@
-include ':app', ':MaterialLogin', ':SwitchButton', ':RollingTextView', ':SuperCircle', ':SlantedTextView', ':ZoomHeader', ':LoadingView', ':ViewPagerCards', ':RingProgressBar', ':ScratchView', ':ADDialog', ':LoadingIndicatorView', ':NumberProgressBar', ':CircularProgressButton'
+include ':app', ':MaterialLogin', ':SwitchButton', ':RollingTextView', ':SuperCircle', ':SlantedTextView', ':ZoomHeader', ':LoadingView', ':ViewPagerCards', ':RingProgressBar', ':ScratchView', ':ADDialog', ':LoadingIndicatorView', ':NumberProgressBar', ':CircularProgressButton', ':AndroidSwipeLayout'
