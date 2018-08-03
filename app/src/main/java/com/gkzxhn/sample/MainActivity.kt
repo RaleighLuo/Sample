@@ -39,7 +39,6 @@ class MainActivity : AppCompatActivity() {
         adapter.setOnItemClickListener(onItemClickListener)
         mRecyclerView.adapter=adapter
         loadDatas()
-
     }
     fun loadDatas(){
         adapter.loadItem("MaterialLogin","转场动画Android 5.0以上")
@@ -56,6 +55,8 @@ class MainActivity : AppCompatActivity() {
         adapter.loadItem("LoadingIndicatorView","加载动画")
         adapter.loadItem("NumberProgressBar","数字进度条")
         adapter.loadItem("CircularProgressButton","圆形进度条按钮")
+
+
     }
     private val onItemClickListener=object :OnItemClickListener{
         override fun onClick(convertView: View, position: Int) {
